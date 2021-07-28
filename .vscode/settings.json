@@ -1,4 +1,6 @@
-// Copy and paste the settings.json from your VSCode here!
+/******************************************************************
+***** Copy and paste the settings.json from your VSCode here! *****
+*******************************************************************/
 {
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
