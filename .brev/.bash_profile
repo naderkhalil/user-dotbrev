@@ -23,3 +23,4 @@
 # if [ -f ../helpers/git-completion.bash ]; then
 #   . ../helpers/git-completion.bash
 # fi
+# source ./helpers/.git-prompt.sh
