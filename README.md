@@ -40,7 +40,7 @@ You can pre-download VSCode extensions and globally install software like zsh, l
 
 Careful not to place too many software packages in here (like Node v14, Python, or Go), and instead place that in your project's `.brev`. This way different versions of your software will not conflict, and others can clone your environment.
 
-##### `.brev/.bash_profile`, `.brev/.zshrc`
+##### `.brev/.bash_profile` and `.brev/.zshrc`
 This should be replaced with your bash profile or your zshrc. We use this to setup aliases, git completion or any other terminal specific settings you have for your terminal.
 We have recommended aliases and git completion if you want to uncomment those lines.
 
