@@ -1,9 +1,9 @@
 #Load in the git branch prompt script.
-source ./helpers/.git-prompt.sh
+source ../helpers/.git-prompt.sh
 
 #git autocomplete
-if [ -f ./helpers/.git-completion.bash ]; then
-  . ./helpers/.git-completion.bash
+if [ -f ../helpers/.git-completion.bash ]; then
+  . ../helpers/.git-completion.bash
 fi
 
 #modify prompt
