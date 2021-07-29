@@ -8,7 +8,7 @@ Fork and modify this template to add your own custom settings.
 
 ### VSCode Settings and Extensions
 #### 1. Replace `.vscode/settings.json` with your personal VSCode `settings.json`.
->To locate your personal VSCode `settings.json`, first open VSCode. Then click Cmd+Shft+P (Ctrl+Shft+P for Windows) and type `>Preferences: Open Default Settings (JSON)`.
+>To locate your personal VSCode `settings.json`, first open VSCode. Then click Cmd+Shft+P (Ctrl+Shft+P for Windows) and type `>Preferences: Open Settings (JSON)`.
 
 #### 2. Open `.brev/setup.sh` and add your VSCode extensions.
 >To find an extension id, go to the extensions tab of your VSCode. Click the settings icon on the bottom right of the extension card, then select `Copy Extension ID`. You can also locate the extension id by clicking on the extension card and looking to the right of the extension name.
