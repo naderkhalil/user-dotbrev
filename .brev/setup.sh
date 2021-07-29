@@ -24,10 +24,17 @@ cp .vscode/settings.json /home/brev/.local/share/code-server/User/settings.json
 # code-server --install-extension tyriar.sort-lines
 # code-server --install-extension ryanolsonx.solarized
 
-##### Zsh #####
+##### ZSH #####
 sudo apt-get install zsh -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-echo "zsh" >>~/.bashrc
+
+##### Copying your ZSH Settings #####
 cat .brev/.zshrc >>~/.zshrc
-cat .brev/.bash_profile >>~/.zshrc
 source ~/.zshrc
+
+##### Copying your BASH Settings #####
+if [ ! -f "~/.bash_profile" ]; then 
+	touch ~/.bash_profile
+fi
+cat .brev/.bash_profile >>~/.bash_profile
+source ~/.bash_profile
