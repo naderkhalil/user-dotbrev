@@ -23,8 +23,8 @@ Fork and modify this template to add your own custom settings.
 #### a. Replace `.brev/.bash_profile` with your personal `.bash_profile`.
 >Most people have this pre-installed! If you use zsh instead, step 3a should apply to you. Type in `cat ~/.bash_profile` into your terminal to display the file.
 
-#### b. Comment out the code under `# MAKE ZSH DEFAULT` in `.brev/setup.sh`.
-> Specifically these two lines: `35: echo "zsh" >> ~/.bashrc` and `36: source ~/.zshrc`
+#### b. Comment out the code under `##### MAKE ZSH DEFAULT #####` in `.brev/setup.sh`.
+> Specifically lines 45 - 51.
 
 If there are other tools you'd like to install *globally* (this means they are downloaded everytime you create or join a project), add them in `.brev/setup.sh`. For example, this is where we add zsh!
 
