@@ -20,6 +20,7 @@ cp .vscode/settings.json /home/brev/.local/share/code-server/User/settings.json
 # code-server --install-extension dbaeumer.vscode-eslint
 # code-server --install-extension eamodio.gitlens
 # code-server --install-extension ms-azuretools.vscode-docker
+# code-server --install-extension davidanson.vscode-markdownlint
 # code-server --install-extension golang.go
 # code-server --install-extension tyriar.sort-lines
 # code-server --install-extension ryanolsonx.solarized
@@ -28,5 +29,6 @@ cp .vscode/settings.json /home/brev/.local/share/code-server/User/settings.json
 sudo apt-get install zsh -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 echo "zsh" >>~/.bashrc
+cat .brev/.zshrc >>~/.zshrc
 cat .brev/.bash_profile >>~/.zshrc
 source ~/.zshrc

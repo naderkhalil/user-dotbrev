@@ -1,9 +1,10 @@
-/******************************************************************
-***** Copy and paste the settings.json from your VSCode here! *****
-*******************************************************************/
+/*********************************************************************
+***** Replace this file with the settings.json from your VSCode! *****
+***** If you don't have one, we provide this default.            *****
+**********************************************************************/
 {
   "editor.formatOnSave": true,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "editor.detectIndentation": false,
   "editor.rulers": [
     100
@@ -11,5 +12,6 @@
   "editor.tabSize": 2,
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
-  }
+  },
+  "workbench.colorTheme": "Visual Studio Dark"
 }
