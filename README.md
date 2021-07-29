@@ -16,13 +16,15 @@ Fork and modify this template to add your own custom settings.
 ### Terminal Settings
 
 #### Use **zsh**? Do this 👇 (type `zsh --version` to see if you have zsh installed)
-#### 3a. Replace `.brev/.zshrc` with your personal `.zshrc`.
+#### a. Replace `.brev/.zshrc` with your personal `.zshrc`.
 >If you use zsh, you will have this file! If not, step 3b will apply to you. Type in `cat ~/.zshrc` into your terminal to display the file.
 
-
 #### Use **bash** instead? Do this👇
-#### 3b. Replace `.brev/.bash_profile` with your personal `.bash_profile`.
+#### a. Replace `.brev/.bash_profile` with your personal `.bash_profile`.
 >Most people have this pre-installed! If you use zsh instead, step 3a should apply to you. Type in `cat ~/.bash_profile` into your terminal to display the file.
+
+#### b. Comment out the code under `# MAKE ZSH DEFAULT` in `.brev/setup.sh`.
+> Specifically these two lines: `35: echo "zsh" >> ~/.bashrc` and `36: source ~/.zshrc`
 
 If there are other tools you'd like to install *globally* (this means they are downloaded everytime you create or join a project), add them in `.brev/setup.sh`. For example, this is where we add zsh!
 
