@@ -20,6 +20,7 @@
 # }
 
 ##### Enable Git Autocomplete #####
-# if [ -f ../helpers/git-completion.bash ]; then
-#   . ../helpers/git-completion.bash
+# if [ -f ../.brev-helpers/git-completion.bash ]; then
+#   . ../.brev-helpers/git-completion.bash
 # fi
+# source ../.brev-helpers/.git-prompt.sh
