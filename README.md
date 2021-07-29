@@ -28,7 +28,7 @@ Fork and modify this template to add your own custom settings.
 #### 4. Go back to `.brev/setup.sh`. 
 >If there are other tools you'd like to install *globally* (this means they are downloaded everytime you create or join a project), add them here. For example, we add zsh automatically everytime!
 
-## Contents
+## Repository Contents
 
 If you want to adjust these for more custom setups, here's more information on how this configuration repository is structured.
 
