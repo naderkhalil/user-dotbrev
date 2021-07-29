@@ -17,7 +17,6 @@ cp .vscode/settings.json /home/brev/.local/share/code-server/User/settings.json
 
 ##### Recommended VSCode Extensions #####
 # code-server --install-extension esbenp.prettier-vscode
-# code-server --install-extension dbaeumer.vscode-eslint
 # code-server --install-extension eamodio.gitlens
 # code-server --install-extension ms-azuretools.vscode-docker
 # code-server --install-extension davidanson.vscode-markdownlint
