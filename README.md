@@ -15,12 +15,12 @@ Fork and modify this template to add your own custom settings.
 
 ### Terminal Settings
 
-#### Use **zsh**? Do this 👇
-#### 3a. Replace `.brev/.zshrc` with your personal `.zshrc`.
+#### 3. Use **zsh**? Do A 👇  Use **bash** instead? Do B 👇
+
+#### A. Replace `.brev/.zshrc` with your personal `.zshrc`.
 >If you use zsh, you will have this file! If not, step 3b will apply to you. Type in `cat ~/.zshrc` into your terminal to display the file (if you don't have it, you probably use bash instead!).
 
-#### Use **bash** instead? Do this👇
-#### 3b. Replace `.brev/.bash_profile` with your personal `.bash_profile`.
+#### B. Replace `.brev/.bash_profile` with your personal `.bash_profile`.
 >Most people have this pre-installed! If you use zsh instead, step 3a should apply to you. Type in `cat ~/.bash_profile` into your terminal to display the file.
 
 ### Other Global Tools (Advanced)
