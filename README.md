@@ -24,9 +24,7 @@ Fork and modify this template to add your own custom settings.
 #### 3b. Replace `.brev/.bash_profile` with your personal `.bash_profile`.
 >Most people have this pre-installed! If you use zsh instead, step 3a should apply to you. Type in `cat ~/.bash_profile` into your terminal to display the file.
 
-### Other Global Tools (Advanced)
-#### 4. Go back to `.brev/setup.sh`. 
->If there are other tools you'd like to install *globally* (this means they are downloaded everytime you create or join a project), add them here. For example, we add zsh automatically everytime!
+If there are other tools you'd like to install *globally* (this means they are downloaded everytime you create or join a project), add them in `.brev/setup.sh`. For example, this is where we add zsh!
 
 ## Repository Contents
 
