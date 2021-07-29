@@ -15,10 +15,9 @@ Fork and modify this template to add your own custom settings.
 
 ### Terminal Settings
 
-#### Use **zsh**? Do this 👇 (type `zsh --version` to see if you have zsh installed)
+#### Use **zsh**? Do this 👇
 #### 3a. Replace `.brev/.zshrc` with your personal `.zshrc`.
->If you use zsh, you will have this file! If not, step 3b will apply to you. Type in `cat ~/.zshrc` into your terminal to display the file.
-
+>If you use zsh, you will have this file! If not, step 3b will apply to you. Type in `cat ~/.zshrc` into your terminal to display the file (if you don't have it, you probably use bash instead!).
 
 #### Use **bash** instead? Do this👇
 #### 3b. Replace `.brev/.bash_profile` with your personal `.bash_profile`.
