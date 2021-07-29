@@ -46,4 +46,4 @@ We have recommended aliases and git completion if you want to uncomment those li
 This file is copied into our fork of VSCode so your settings are the same.
 
 #### `helpers/*`
-Here we keep helper files that run in the above directories. Ex. `git-completion.bash` runs if you use our recommended bash_profile settings. It is also common in personal setups, so we keep it here in case you want to reference it!
+Here we keep helper files that run in the above directories. Ex. `git-completion.bash` runs if you use our recommended `.bash_profile` settings. It is also common in personal setups, so we keep it here in case you want to reference it!
