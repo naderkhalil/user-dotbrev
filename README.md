@@ -13,7 +13,9 @@ Replace `.vscode/settings.json` with your personal VSCode `settings.json`.
 
 Open `.brev/setup.sh` and add your VSCode extensions.
 >To find an extension id, go to the extensions tab of your VSCode. Click the settings icon on the bottom right of the extension card, then select `Copy Extension ID`. You can also locate the extension id by clicking on the extension card and looking to the right of the extension name.
-<!-- https://console.brev.dev/static/media/vscodepackage.9dd68dbc.png -->
+![img](https://console.brev.dev/static/media/vscodepackage.9dd68dbc.png)
+
+`code-server --install-extension <HIGHLIGHTED_ID>`         
 
 ### Terminal Settings
 
