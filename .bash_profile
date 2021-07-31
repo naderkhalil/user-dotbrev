@@ -27,4 +27,4 @@
 # if [ -f /home/brev/workspace/.brev/utils/git-completion.bash ]; then
 #   . /home/brev/workspace/.brev/utils/git-completion.bash
 # fi
-# source /home/brev/workspace/.brev./utils/git-prompt.sh
+# source /home/brev/workspace/.brev/utils/git-prompt.sh
