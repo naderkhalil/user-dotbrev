@@ -13,5 +13,5 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
-  "workbench.colorTheme": "Visual Studio Dark"
+  "workbench.colorTheme": "Solarized Light"
 }
