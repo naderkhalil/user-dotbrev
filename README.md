@@ -15,24 +15,29 @@ Open `.brev/setup.sh` and add your VSCode extensions.
 >The extension ID can be found to the right of the VSCode extension
 ![img](https://console.brev.dev/static/media/vscodepackage.9dd68dbc.png)
 
-`code-server --install-extension <HIGHLIGHTED_ID>`         
+`code-server --install-extension <HIGHLIGHTED_ID>`    
 
-### Terminal Settings
+### 2. Terminal Settings ###
+Replace .zshrc with your personal .zshrc, or .bash_profile with .bash_profile if you prefer bash.
 
-#### Use **zsh**? Do this 👇 (type `zsh --version` to see if you have zsh installed)
-#### a. Replace `.zshrc` with your personal `.zshrc`.
->If you use zsh, you will have this file! If not, step 3b will apply to you. Type in `cat ~/.zshrc` into your terminal to display the file. If you have any files you want to reference in this script, add them to the `.brev/utils` folder and reference them as `/home/brev/workspace/.brev/utils/<FILENAME>`.
-
-#### Use **bash** instead? Do this👇
-#### a. Replace `.bash_profile` with your personal `.bash_profile`.
->Most people have this pre-installed! If you use zsh instead, step 3a should apply to you. Type in `cat ~/.bash_profile` into your terminal to display the file. If you have any files you want to reference in this script, add them to the `.brev/utils` folder and reference them as `/home/brev/workspace/.brev/utils/<FILENAME>`.
-
-#### b. Comment out the code under `##### MAKE ZSH DEFAULT #####` in `.brev/setup.sh`.
-> Specifically lines 45 - 51.
-
-If there are other tools you'd like to install *globally* (this means they are downloaded everytime you create or join a project), add them in `.brev/setup.sh`. For example, this is where we add zsh!
+Not sure if you use zsh? Type `zsh --version`
 
 **Done! Happy coding!**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If there are other tools you'd like to install *globally* (this means they are downloaded everytime you create or join a project), add them in `.brev/setup.sh`. For example, this is where we add zsh!
 
 ## Repository Contents
 
